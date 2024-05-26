@@ -1,0 +1,1 @@
+g++ -Werror -Wall -Wextra -pedantic -lraylib -o main main.cpp
