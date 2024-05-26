@@ -1,1 +1,1 @@
-g++ -Werror -Wall -Wextra -pedantic -lraylib -o main main.cpp
+g++ -Werror -Wall -Wextra -pedantic -lraylib -lfftw3 -lm -o AudioVisualizer AudioVisualizer.cpp

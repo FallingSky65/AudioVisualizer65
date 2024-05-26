@@ -1,2 +1,7 @@
+rm AudioVisualizer
 ./build.sh
-./main $1
+if [ $? -eq 0 ]; then
+    ./AudioVisualizer $1
+else
+    echo "Build Failed"
+fi
